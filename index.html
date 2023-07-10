@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./Favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Timofey's Portfolio</title>
+  </head>
+  <body>
+    <header aria-label="header">
+      <div class="topnav" id="myTopnav">
+        <a href="./index.html" class="active" id="home-link"
+          >Timofey Makhankov</a
+        >
+        <a href="./contact.html" class="options">Contact</a>
+        <a href="./projects.html" class="options">Projects</a>
+        <a href="./photography.html" class="options">Photography</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <img src="./FUJI7672.JPG" alt="Self Portrait" class="portrait-image" />
+        <h1 id="title-name">I'm Timofey Makhankov</h1>
+        <p id="title-description">
+          I'm a Software Developer and Photographer in Zürich, Switzerland
+        </p>
+        <h2>Current Project</h2>
+        <div class="projects-wrapper">
+          <img id="grader-app" src="signal-2023-07-10-083614.png" alt="" />
+          <p>This is my Project</p>
+        </div>
+        <div class="projects-wrapper">
+          <img id="rest-foods" src="Screenshot 2023-06-28 132839.png" alt="" />
+          <p>This is my Work Project at Work</p>
+        </div>
+        <div class="projects-wrapper">
+          <img id="recipe-website" src="Screenshot 2023-07-10 084138.png" alt="" />
+          <p>This is my recipe Website</p>
+        </div>
+        <p></p>
+        <a class="button-outline" href="./projects.html">
+          <p class="button-text">Project</p>
+        </a>
+        <p>Sign Up for the newsletter</p>
+        <form action="">
+          <input type="email" name="Email for the newsletter" id="">
+          <button type="submit">Send</button>
+        </form>
+        <div class="icon-wrapper">
+          <a href="https://www.instagram.com/makhankovtimofey/">
+            <img src="./instagram.svg" alt="" width="32px" />
+          </a>
+          <a href="https://github.com/Timofey-Makhankov">
+            <img src="./github.svg" alt="" width="32px" />
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="footer-text">Copyright 2023</p>
+    </footer>
+  </body>
+  <script src="./main.js"></script>
+</html>

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --background-color: #EFFFFD;
+    --foreground-color: #B8FFF9;
+    --main-color: #85f4ff;
+    --action-color: #42c2ff;
+    --error-color: #ff002b;
+    --success-color: #62ff32;
+}
+
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+footer {
+    background-color: var(--foreground-color);
+}
+
+#home-link {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.footer-text {
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.options {
+    text-align: center;
+    font-weight: bold;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: var(--foreground-color);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+    }
+  }
+
